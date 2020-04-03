@@ -81,9 +81,23 @@ p, a, li, blockquote, input {
     padding: var(--page-padding);
     margin-bottom: var(--page-padding);
 }
+
 .flight-select input {
     width: 125px;
     margin-left: var(--page-padding);
+}
+
+.flight-submit-button {
+    color: black;
+    border: 2px solid rgb(167, 69, 69);
+    border-radius: 24%;
+}
+
+.invalid-flight {
+    margin-left: 24px;
+    width: 28%;
+    display: none;
+    color: white;
 }
 
 input {
@@ -260,3 +274,13 @@ input {
 }
 
 .form-container { display: none; }
+
+.reservation-finder {
+    height: 480px;
+}
+
+.reservation-finder-box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 72px;
+}

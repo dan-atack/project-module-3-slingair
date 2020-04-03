@@ -12,7 +12,14 @@
                 <h1 class='header-logo'>Air Slingshot</h1>
             </div>
             <div class="content">
-
+                <div class="reservation-finder-box">
+                    <h2> Enter your email address to review your flight details: </h2>
+                <form class="reservation-finder" id="res-finder" name="res-finder" onsubmit="findMyRes(event)">
+                    <label class="res-finder-input" for="reservation-finder"> User Email: </label>
+                        <input id="email-input" type="text" name="email-input" placeholder="enter your email here">
+                    <button type="submit">GO!</button>
+                </form>
+                </div>
             </div>
         </div>
         <p class='footer-logo'>The only way to fly!</p>
